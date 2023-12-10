@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(21, 21, 21);
+  font-family: 'Oswald', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.left-section {
+  font-size: 25px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mid-section {
+  list-style: none;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mid-section li {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.mid-section li a {
+  text-decoration: none;
+  padding: 15px 15px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.mid-section li a:hover {
+  text-decoration: underline;
+}
+
+.rightbtn {
+  font-size: 16px;
+  padding: 0px 14px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgb(21, 21, 21);
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.rightbtn:hover {
+  border: 1px solid white;
+}
+
+.mainsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 66px;
+}
+.maintext{
+  position: relative;
+  left: -88px;
+}
+.maintext h1{
+  color: white;
+  font-size: 42px;
+  font-weight: 400;
+  position: relative;
+  top: -100px;
+  left: 139px;
+}
+
+.maintext p{
+  color: white;
+  font-size: 14px;
+  position: relative;
+  top: -83px;
+  left: 139px;
+  width: 389px;
+}
+
+
+.mainimg {
+  position: relative;
+  left: 70px;
+}
+
+.resumebtn{
+  font-size: 22px;
+  padding: 0px 14px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgb(21, 21, 21);
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  left: 126px;
+  top: -50px;
+}
+
+.resumebtn:hover{
+  border: 1px solid white;
 }
